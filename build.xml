@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<project name="Jmeterplugin-datasketches" default="CreateJar">
+	<target name="CreateJar" description="Create Jar file">
+		<jar jarfile="DataSketches.jar">
+			<fileset dir="bin/" includes="**/*.class" />
+		</jar>
+	</target>
+</project>
